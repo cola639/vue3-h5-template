@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@nutui/nutui": "^4.2.2",
-    "@cola639/nutui": "^4.2.3",
+    "@cola639/nutui": "^4.2.4",
     "axios": "^1.5.1",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",

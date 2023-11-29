@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@cola639/nutui':
-    specifier: ^4.2.3
-    version: 4.2.3(unplugin-vue-components@0.22.12)
+    specifier: ^4.2.4
+    version: 4.2.4(unplugin-vue-components@0.22.12)
   '@nutui/nutui':
     specifier: ^4.2.2
     version: 4.2.2(unplugin-vue-components@0.22.12)
@@ -440,8 +440,8 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
 
-  /@cola639/nutui@4.2.3(unplugin-vue-components@0.22.12):
-    resolution: {integrity: sha512-7dahTabbqPAlSeE3Sw+2oJlnSIxQwkaEe63Fm+N0vWuryiy7A9eFnM+pG/1jmGxFp8YLciaToPRCDCvU16y2nQ==}
+  /@cola639/nutui@4.2.4(unplugin-vue-components@0.22.12):
+    resolution: {integrity: sha512-N+Pi3TFb1kMFaE7XI9UAieWz0rN8IcuDoPXyRbuhKi6+RFTJIRfqSH7/PM+Sy5i4+4fR1u0+wZur4XqMaglIaA==}
     peerDependencies:
       unplugin-vue-components: ^0.25.1
     peerDependenciesMeta:

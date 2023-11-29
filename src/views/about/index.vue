@@ -1,27 +1,24 @@
-<script setup lang="ts" name="About">
-import { reactive } from "vue";
-
-const contentList = reactive([
-  "✔ ⚡ Vue3 + Vite4",
-  "✔ 🍕 TypeScript",
-  "✔ ✨ Vant4 组件库",
-  "✔ 🌀 Tailwindcss 原子类框架",
-  "✔ 🍍 Pinia 状态管理",
-  "✔ 🌓 支持深色模式",
-  "✔ Vue-router 4",
-  "✔ 支持 SVG 图标自动注册组件",
-  "✔ vw 视口适配",
-  "✔ Axios 封装",
-  "✔ 打包资源 gzip 压缩",
-  "✔ 开发环境支持 Mock 数据",
-  "✔ ESLint",
-  "✔ 首屏加载动画",
-  "✔ 开发环境调试面板"
-]);
-</script>
-
 <template>
-  <div class="demo-content px-[12px]">
-    <nut-button type="primary">主要按钮</nut-button>
-  </div>
+  <nut-cardsstacking
+    :img-url="state.imgUrl"
+    :title="state.title"
+    :price="state.price"
+    :vipPrice="state.vipPrice"
+    :shopDesc="state.shopDesc"
+    :delivery="state.delivery"
+    :shopName="state.shopName"
+  ></nut-cardsstacking>
 </template>
+<script setup>
+import { reactive } from "vue";
+const state = reactive({
+  imgUrl: "//placehold.it/350x200",
+  title:
+    "活蟹】湖塘煙雨 阳澄湖大闸蟹公4.5两 母3.5两 4对8只 鲜活生鲜螃蟹现货水产礼盒海鲜水",
+  price: "388",
+  vipPrice: "378",
+  shopDesc: "自营",
+  delivery: "厂商配送",
+  shopName: "阳澄湖大闸蟹自营店>"
+});
+</script>

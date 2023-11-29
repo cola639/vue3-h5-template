@@ -8,7 +8,6 @@ import "./styles/index.less";
 import "./styles/tailwind.css";
 // svg icon
 import "virtual:svg-icons-register";
-import NutUI1 from "@nutui/nutui";
 import NutUI from "@cola639/nutui";
 import "@nutui/nutui/dist/style.css";
 
