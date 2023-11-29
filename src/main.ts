@@ -8,6 +8,9 @@ import "./styles/index.less";
 import "./styles/tailwind.css";
 // svg icon
 import "virtual:svg-icons-register";
+import NutUI1 from "@nutui/nutui";
+import NutUI from "@cola639/nutui";
+import "@nutui/nutui/dist/style.css";
 
 import App from "./App.vue";
 import router from "./router";
@@ -15,5 +18,5 @@ import router from "./router";
 const app = createApp(App);
 app.use(store);
 app.use(router);
-
+app.use(NutUI);
 app.mount("#app");
